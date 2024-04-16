@@ -31,4 +31,48 @@ This dataset is provided by the USDA's Food Safety and Inspection Service (FSIS)
 ## Usage
 This dataset is intended for researchers and professionals in food safety, public health monitoring, and environmental science. It allows for the analysis of bacterial contamination in raw chicken and understanding how various environmental factors might impact such results.
 
+# Machine Learning Model Runner
+
+## Description
+This Python script facilitates the running of various machine learning models on a specified dataset. It supports logistic regression, MLP classifiers, decision trees, SVM, K-Nearest Neighbors, and Gradient Boosting Machines. Features include handling imbalanced datasets using techniques like Random Over Sampler and SMOTE, configurable model parameters through command-line arguments, and the display of feature importance for applicable models.
+
+## Features
+- **Multiple Machine Learning Models:** Choose from several models to train on your data.
+- **Configurable Parameters:** Customize model parameters directly via command-line.
+- **Feature Importance Display:** For models that support it, display the importance of each feature in the model.
+- **Data Preprocessing:** Includes standard scaling and handling missing values.
+- **Imbalance Handling:** Options to apply oversampling techniques to balance dataset classes.
+
+## Prerequisites
+To use this script, you'll need Python 3.x and several libraries installed on your system:
+- **Pandas**
+- **Scikit-learn**
+- **Imbalanced-learn**
+
+You can install the necessary Python libraries using pip:
+```bash
+pip install pandas scikit-learn imbalanced-learn
+```
+## Installation
+To install this script, clone this repository to your local machine using
+
+## Usage
+Run the script from the command line, specifying the path to your dataset along with options to configure the model:
+```bash
+python filename.py <path_to_dataset> --model <model_name> --target <target_column> [other options]
+```
+
+## Command-line Arguments
+filepath: Mandatory. The path to the dataset file.
+- ** --model: Optional. Choose the machine learning model. Default is 'logistic_regression'.
+- ** --target: Optional. Specify the target variable column. Default is 'target'.
+- ** --lr_C: Optional. Regularization strength for logistic regression (inverse of lambda). Default is 1.0.
+- ** --lr_max_iter: Optional. Maximum iterations for logistic regression. Default is 100.
+- ** --mlp_max_iter: Optional. Maximum iterations for MLP classifier. Default is 200.
+- ** --dt_max_depth: Optional. Maximum depth for the decision tree. Use 'None' for no limit. Default is 'None'.
+- ** --svm_C: Optional. Regularization parameter for SVM. Default is 1.0.
+- ** --svm_kernel: Optional. Kernel type for SVM. Default is 'rbf'.
+- ** --knn_n_neighbors: Optional. Number of neighbors for KNN. Default is 5.
+- ** --gbm_n_estimators: Optional. Number of boosting stages for GBM. Default is 100.
+
 
