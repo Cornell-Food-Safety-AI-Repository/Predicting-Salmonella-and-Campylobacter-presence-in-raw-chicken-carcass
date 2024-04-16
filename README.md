@@ -63,7 +63,7 @@ python filename.py <path_to_dataset> --model <model_name> --target <target_colum
 ```
 
 ## Command-line Arguments
-filepath: Mandatory. The path to the dataset file.
+- ` --filepath`: Mandatory. The path to the dataset file.
 - ` --model`: Optional. Choose the machine learning model. Default is 'logistic_regression'.
 - ` --target`: Optional. Specify the target variable column. Default is 'target'.
 - ` --lr_C`: Optional. Regularization strength for logistic regression (inverse of lambda). Default is 1.0.
