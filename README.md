@@ -75,4 +75,8 @@ python filename.py <path_to_dataset> --model <model_name> --target <target_colum
 - ` --knn_n_neighbors`: Optional. Number of neighbors for KNN. Default is 5.
 - ` --gbm_n_estimators`: Optional. Number of boosting stages for GBM. Default is 100.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# LAZY PREDICT METHOD
+
 
