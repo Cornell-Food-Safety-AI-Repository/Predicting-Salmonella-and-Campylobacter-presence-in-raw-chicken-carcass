@@ -78,5 +78,30 @@ python filename.py <path_to_dataset> --model <model_name> --target <target_colum
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # LAZY PREDICT METHOD
+## Dependencies
+
+- Python 3.7+
+- pandas
+- scikit-learn
+- imbalanced-learn
+- LazyPredict
+
+``` bash
+pip install pandas scikit-learn imbalanced-learn lazypredict
+```
+## Usage
+1. Prepare your dataset file
+2. Run the script with the dataset file and target column:
+
+```bash
+python LazyChicken.py /path/to/Dataset_RawChickenCarcasses.xlsx --target SalmonellaSPAnalysis( CampylobacterAnalysis30ml)
+```
+
+3. The script will output the number of positive cases for the target variable and evaluate various machine learning models.
+
+## Example Output
+
+
+
 
 
