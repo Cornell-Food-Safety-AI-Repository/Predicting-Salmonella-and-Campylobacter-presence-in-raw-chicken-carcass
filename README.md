@@ -112,7 +112,7 @@ python LazyChicken.py /path/to/Dataset_RawChickenCarcasses.xlsx --target Salmone
 
 #### Model Comparison
 
-![Model Accuracy Comparison](Images/output1.png)
+![Model Comparison](Images/output1.png)
 ### CampylobacterAnalysis30ml
 #### Model Performance Table
 
@@ -122,6 +122,6 @@ python LazyChicken.py /path/to/Dataset_RawChickenCarcasses.xlsx --target Salmone
 
 ![Model Accuracy Comparison](Images/model_performance_bar_C.png)
 
+#### Model Comparison
 
-
-
+![Model Comparison](Images/output2.png)
