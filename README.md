@@ -73,6 +73,58 @@ python filename.py <path_to_dataset> --model <model_name> --target <target_colum
 - ` --svm_kernel`: Optional. Kernel type for SVM. Default is 'rbf'.
 - ` --knn_n_neighbors`: Optional. Number of neighbors for KNN. Default is 5.
 - ` --gbm_n_estimators`: Optional. Number of boosting stages for GBM. Default is 100.
+### Model Performance Results with Resampling Process
+
+The following visualization and tables summarize the performance of different machine learning models after applying resampling.
+
+#### Performance Comparison Chart
+
+![Model Performance Comparison](Images/curve_chick.png)
+
+#### Confusion Matrices
+
+### Logistic Regression Confusion Matrix
+
+|                 | Predicted Negative | Predicted Positive |
+|-----------------|---------------------|---------------------|
+| **Actual Negative** | 628                   | 305                   |
+| **Actual Positive** | 17                   | 28                   |
+
+### Neural Network Confusion Matrix
+
+|                 | Predicted Negative | Predicted Positive |
+|-----------------|---------------------|---------------------|
+| **Actual Negative** | 896                   | 37                   |
+| **Actual Positive** | 40                   | 5                   |
+
+### Decision Tree Confusion Matrix
+
+|                 | Predicted Negative | Predicted Positive |
+|-----------------|---------------------|---------------------|
+| **Actual Negative** | 873                   | 60                   |
+| **Actual Positive** | 41                   | 4                   |
+
+### SVM Confusion Matrix
+
+|                 | Predicted Negative | Predicted Positive |
+|-----------------|---------------------|---------------------|
+| **Actual Negative** | 799                   | 134                   |
+| **Actual Positive** | 32                   | 13                   |
+
+### KNN Confusion Matrix
+
+|                 | Predicted Negative | Predicted Positive |
+|-----------------|---------------------|---------------------|
+| **Actual Negative** | 819                   | 114                   |
+| **Actual Positive** | 37                   | 8                   |
+
+### GBM Confusion Matrix
+
+|                 | Predicted Negative | Predicted Positive |
+|-----------------|---------------------|---------------------|
+| **Actual Negative** | 843                   | 90                   |
+| **Actual Positive** | 30                   | 15                   |
+
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
