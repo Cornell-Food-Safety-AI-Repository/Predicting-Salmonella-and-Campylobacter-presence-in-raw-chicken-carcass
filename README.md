@@ -58,7 +58,7 @@ To install this script, clone this repository to your local machine using
 ## Usage
 Run the script from the command line, specifying the path to your dataset along with options to configure the model:
 ```bash
-python filename.py <path_to_dataset> --model <model_name> --target <target_column> [other options]
+python ML_runner.py <path_to_dataset> --model <model_name> --target <target_column> [other options]
 ```
 
 ## Command-line Arguments
