@@ -65,18 +65,18 @@ python ML_runner.py <path_to_dataset> --model <model_name> --target <target_colu
 - ` --filepath`: Mandatory. The path to the dataset file.
 - ` --model`: Optional. Choose the machine learning model. Default is 'logistic_regression'.
 - ` --target`: Optional. Specify the target variable column. Default is 'target'.
-- `--resampling`: Optional. Whether to apply RandomOverSampler for class balancing.
+- ` --resampling`: Optional. Whether to apply RandomOverSampler for class balancing.
 - ` --lr_C`: Optional. Regularization strength for logistic regression (inverse of lambda). Default is 1.0.
 - ` --lr_max_iter`: Optional. Maximum iterations for logistic regression. Default is 100.
 - ` --mlp_max_iter`: Optional. Maximum iterations for MLP classifier. Default is 200.
-- `--mlp_hidden_layers`: Optional. Number of neurons in the hidden layers for MLP Classifier.
+- ` --mlp_hidden_layers`: Optional. Number of neurons in the hidden layers for MLP Classifier.
 - ` --dt_max_depth`: Optional. Maximum depth for the decision tree. Use 'None' for no limit. Default is 'None'.
 - ` --svm_C`: Optional. Regularization parameter for SVM. Default is 1.0.
 - ` --svm_kernel`: Optional. Kernel type for SVM. Default is 'rbf'.
 - ` --knn_n_neighbors`: Optional. Number of neighbors for KNN. Default is 5.
 - ` --gbm_n_estimators`: Optional. Number of boosting stages for GBM. Default is 100.
-- `--gbm_learning_rate`: Optional. Learning rate for GBM.
-- 
+- ` --gbm_learning_rate`: Optional. Learning rate for GBM.
+
 ### Model Performance Results with Resampling Process
 
 The following visualization and tables summarize the performance of different machine learning models after applying resampling.
