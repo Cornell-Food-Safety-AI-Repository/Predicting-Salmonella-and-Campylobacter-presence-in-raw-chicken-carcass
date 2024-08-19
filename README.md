@@ -30,8 +30,7 @@ This dataset is provided by the USDA's Food Safety and Inspection Service (FSIS)
 ## Usage
 This dataset is intended for researchers and professionals in food safety, public health monitoring, and environmental science. It allows for the analysis of bacterial contamination in raw chicken and understanding how various environmental factors might impact such results.
 
-# Machine Learning Model Runner
-
+# Sample Analysis
 ## Description
 This Python script facilitates the running of various machine learning models on a specified dataset. It supports logistic regression, MLP classifiers, decision trees, SVM, K-Nearest Neighbors, and Gradient Boosting Machines. Features include handling imbalanced datasets using techniques like Random Over Sampler and SMOTE, configurable model parameters through command-line arguments, and the display of feature importance for applicable models.
 
