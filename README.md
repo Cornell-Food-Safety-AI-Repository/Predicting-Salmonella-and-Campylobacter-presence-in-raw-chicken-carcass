@@ -124,7 +124,7 @@ The following visualization and tables summarize the performance of different ma
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# LAZY PREDICT METHOD
+# LazyPredict Method
 ## Dependencies
 
 - Python 3.7+
