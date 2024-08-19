@@ -59,11 +59,6 @@ To get started with this project, follow these steps:
 git clone[ https://github.com/FoodDatasets/Predicting-Salmonella-presence-in-raw-chicken-carcass.git
 cd Predicting-Salmonella-presence-in-raw-chicken-carcass
 ```
-## Usage
-Run the script from the command line, specifying the path to your dataset along with options to configure the model:
-```bash
-python ML_runner.py <path_to_dataset> --model <model_name> --target <target_column> [other options]
-```
 ## Supported Algorithms
 -  Logistic Regression
 -  Neural Network
@@ -87,7 +82,11 @@ python ML_runner.py <path_to_dataset> --model <model_name> --target <target_colu
 - ` --knn_n_neighbors`: Optional. Number of neighbors for KNN. Default is 5.
 - ` --gbm_n_estimators`: Optional. Number of boosting stages for GBM. Default is 100.
 - ` --gbm_learning_rate`: Optional. Learning rate for GBM.
-
+## Usage
+Run the script from the command line, specifying the path to your dataset along with options to configure the model:
+```bash
+python ML_runner.py <path_to_dataset> --model <model_name> --target <target_column> [other options]
+```
 ### Model Performance Results with Resampling Process
 
 The following visualization and tables summarize the performance of different machine learning models after applying resampling.
