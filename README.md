@@ -31,7 +31,7 @@ This dataset is provided by the USDA's Food Safety and Inspection Service (FSIS)
 This dataset is intended for researchers and professionals in food safety, public health monitoring, and environmental science. It allows for the analysis of bacterial contamination in raw chicken and understanding how various environmental factors might impact such results.
 
 # Sample Analysis
-## Description
+## Overview
 This Python script facilitates the running of various machine learning models on a specified dataset. It supports logistic regression, MLP classifiers, decision trees, SVM, K-Nearest Neighbors, and Gradient Boosting Machines. Features include handling imbalanced datasets using techniques like Random Over Sampler and SMOTE, configurable model parameters through command-line arguments, and the display of feature importance for applicable models.
 
 ## Features
@@ -41,7 +41,7 @@ This Python script facilitates the running of various machine learning models on
 - **Data Preprocessing:** Includes standard scaling and handling missing values.
 - **Imbalance Handling:** Options to apply oversampling techniques to balance dataset classes.
 
-## Prerequisites
+## Dependencies
 To use this script, you'll need Python 3.x and several libraries installed on your system:
 - **Pandas**
 - **Scikit-learn**
@@ -51,9 +51,14 @@ You can install the necessary Python libraries using pip:
 ```bash
 pip install pandas scikit-learn imbalanced-learn
 ```
-## Installation
-To install this script, clone this repository to your local machine using
+To get started with this project, follow these steps:
 
+1. Clone the repository:
+
+```bash
+git clone https://github.com/FoodDatasets/ListeriaFoodEnvironment.git
+cd ListeriaFoodEnvironment
+```
 ## Usage
 Run the script from the command line, specifying the path to your dataset along with options to configure the model:
 ```bash
