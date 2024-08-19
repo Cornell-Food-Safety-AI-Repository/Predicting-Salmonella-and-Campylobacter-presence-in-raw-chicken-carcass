@@ -22,7 +22,8 @@ This Python script facilitates the running of various machine learning models on
 - **Data Preprocessing:** Includes standard scaling and handling missing values.
 - **Imbalance Handling:** Options to apply oversampling techniques to balance dataset classes.
 
-## Dependencies
+## Installation
+### Dependencies
 To use this script, you'll need Python 3.x and several libraries installed on your system:
 - **Pandas**
 - **Scikit-learn**
@@ -33,8 +34,6 @@ You can install the necessary Python libraries using pip:
 pip install pandas scikit-learn imbalanced-learn
 ```
 To get started with this project, follow these steps:
-
-1. Clone the repository:
 
 ```bash
 git clone[ https://github.com/FoodDatasets/Predicting-Salmonella-presence-in-raw-chicken-carcass.git
@@ -47,11 +46,13 @@ cd Predicting-Salmonella-presence-in-raw-chicken-carcass
 -  SVM
 -  KNN
 -  GBM
-  
-## Command-line Arguments
+## Machine Learning Model Execution Guide
+This script allows users to select different machine learning algorithms via command line parameters to train models and evaluate them on a specified dataset.
+### Required Arguments
 - ` --filepath`: Mandatory. The path to the dataset file.
 - ` --model`: Optional. Choose the machine learning model. Default is 'logistic_regression'.
 - ` --target`: Optional. Specify the target variable column. Default is 'target'.
+### Optional Arguments
 - ` --resampling`: Optional. Whether to apply RandomOverSampler for class balancing.
 - ` --lr_C`: Optional. Regularization strength for logistic regression (inverse of lambda). Default is 1.0.
 - ` --lr_max_iter`: Optional. Maximum iterations for logistic regression. Default is 100.
@@ -63,20 +64,20 @@ cd Predicting-Salmonella-presence-in-raw-chicken-carcass
 - ` --knn_n_neighbors`: Optional. Number of neighbors for KNN. Default is 5.
 - ` --gbm_n_estimators`: Optional. Number of boosting stages for GBM. Default is 100.
 - ` --gbm_learning_rate`: Optional. Learning rate for GBM.
-## Usage
+### Usage Example
 Run the script from the command line, specifying the path to your dataset along with options to configure the model:
 ```bash
 python ML_runner.py <path_to_dataset> --model <model_name> --target <target_column> [other options]
 ```
-### Model Performance Results with Resampling Process
+## Model Performance Results with Resampling Process
 
 The following visualization and tables summarize the performance of different machine learning models after applying resampling.
 
-#### Performance Comparison Chart
+### Performance Comparison Chart
 
 ![Model Performance Comparison](Images/curve_chick.png)
 
-#### Confusion Matrices
+## Confusion Matrices
 
 ### Logistic Regression Confusion Matrix
 
