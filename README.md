@@ -14,6 +14,7 @@ This dataset is intended for researchers and professionals in food safety, publi
 ## Overview
 This Python script facilitates the running of various machine learning models on a specified dataset. It supports logistic regression, MLP classifiers, decision trees, SVM, K-Nearest Neighbors, and Gradient Boosting Machines. Features include handling imbalanced datasets using techniques like Random Over Sampler and SMOTE, configurable model parameters through command-line arguments, and the display of feature importance for applicable models.
 
+
 ## Features
 - **Multiple Machine Learning Models:** Choose from several models to train on your data.
 - **Configurable Parameters:** Customize model parameters directly via command-line.
