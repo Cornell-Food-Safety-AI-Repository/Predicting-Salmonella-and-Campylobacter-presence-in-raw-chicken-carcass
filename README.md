@@ -157,7 +157,7 @@ python LazyChicken.py /path/to/Dataset_RawChickenCarcasses.xlsx --target Salmone
 
 #### Model Accuracy Comparison
 
-![Model Accuracy Comparison](Images/model_performance_bar.png)
+![Model Accuracy Comparison](Images/output1sorted.png)
 
 #### Model Comparison
 
