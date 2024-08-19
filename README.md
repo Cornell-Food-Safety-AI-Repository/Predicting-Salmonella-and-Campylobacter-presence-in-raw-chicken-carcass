@@ -56,8 +56,8 @@ To get started with this project, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/FoodDatasets/ListeriaFoodEnvironment.git
-cd ListeriaFoodEnvironment
+git clone[ https://github.com/FoodDatasets/Predicting-Salmonella-presence-in-raw-chicken-carcass.git
+cd Predicting-Salmonella-presence-in-raw-chicken-carcass
 ```
 ## Usage
 Run the script from the command line, specifying the path to your dataset along with options to configure the model:
