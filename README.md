@@ -64,7 +64,14 @@ Run the script from the command line, specifying the path to your dataset along 
 ```bash
 python ML_runner.py <path_to_dataset> --model <model_name> --target <target_column> [other options]
 ```
-
+## Supported Algorithms
+-  Logistic Regression
+-  Neural Network
+-  Decision Tree
+-  SVM
+-  KNN
+-  GBM
+  
 ## Command-line Arguments
 - ` --filepath`: Mandatory. The path to the dataset file.
 - ` --model`: Optional. Choose the machine learning model. Default is 'logistic_regression'.
