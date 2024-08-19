@@ -157,7 +157,9 @@ pip install pandas scikit-learn imbalanced-learn lazypredict
 ## Usage
 1. Prepare your dataset file
 2. Run the script with the dataset file and target column:
-
+### Command-line Arguments
+- `--file_path`: Path to the CSV file containing the dataset (required).
+- `--target_label`:SalmonellaSPAnalysis or CampylobacterAnalysis30ml
 ```bash
 python LazyChicken.py /path/to/Dataset_RawChickenCarcasses.xlsx --target SalmonellaSPAnalysis( CampylobacterAnalysis30ml)
 ```
