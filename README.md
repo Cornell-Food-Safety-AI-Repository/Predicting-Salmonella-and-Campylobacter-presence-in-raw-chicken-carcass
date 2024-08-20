@@ -1,7 +1,7 @@
-# RawChickenCarcasses
+# *Salmonella* and *Campylobacter* in raw chicken carcass
 # Sample Analysis
 ## Overview
-This dataset contains raw chicken carcass sampling data from various poultry establishments across the United States. The data are analyzed for the presence of Salmonella and Campylobacter, critical for monitoring food safety standards. Additionally, the dataset includes detailed weather data corresponding to the collection dates, providing insights into environmental factors that may influence bacterial detection results.
+This dataset contains raw chicken carcass sampling data from various poultry establishments across the United States. The data are analyzed for the presence of *Salmonella* and *Campylobacter*, critical for monitoring food safety standards. Additionally, the dataset includes detailed weather data corresponding to the collection dates, providing insights into environmental factors that may influence bacterial detection results.
 
 
 ## Data Source
