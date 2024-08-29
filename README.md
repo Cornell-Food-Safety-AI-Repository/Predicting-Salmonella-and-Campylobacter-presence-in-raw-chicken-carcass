@@ -75,7 +75,7 @@ The following visualization and tables summarize the performance of different ma
 
 ### Performance Comparison Chart
 
-![Model Performance Comparison](Images/curve_chick.png)
+![Model Performance Comparison](Images/curve_new.png)
 
 ### Performance Table
 
