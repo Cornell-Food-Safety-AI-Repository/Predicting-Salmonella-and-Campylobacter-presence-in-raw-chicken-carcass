@@ -79,14 +79,14 @@ The following visualization and tables summarize the performance of different ma
 
 ### Performance Table
 
-| Algorithm        | Accuracy | Precision (Negative) | Precision (Positive) | Recall (Negative) | Recall (Positive) | F1-Score (Negative) | F1-Score (Positive) |
-|------------------|----------|----------------------|----------------------|-------------------|-------------------|---------------------|---------------------|
-| **Logistic Regression** | 0.66     | 0.97                 | 0.07                 | 0.67              | 0.51              | 0.79                | 0.12                |
-| **Neural Network**      | 0.91     | 0.96                 | 0.13                 | 0.95              | 0.16              | 0.95                | 0.14                |
-| **Decision Tree**       | 0.91     | 0.96                 | 0.12                 | 0.94              | 0.16              | 0.95                | 0.13                |
-| **SVM**                 | 0.83     | 0.96                 | 0.07                 | 0.85              | 0.24              | 0.90                | 0.11                |
-| **KNN**                 | 0.85     | 0.95                 | 0.05                 | 0.89              | 0.13              | 0.92                | 0.08                |
-| **GBM**                 | 0.87     | 0.97                 | 0.14                 | 0.90              | 0.33              | 0.93                | 0.19                |
+| Algorithm        | Accuracy | Precision | Recall (Positive) |  F1-Score (Positive) |
+|------------------|----------|----------------------|----------------------|-------------------|
+| **Logistic Regression** | 0.66     | 0.07                 | 0.51              | 0.12                |
+| **Neural Network**      | 0.91     | 0.13                 | 0.16              | 0.14                |
+| **Decision Tree**       | 0.91     | 0.12                 | 0.16              | 0.13                |
+| **SVM**                 | 0.83     | 0.07                 | 0.24              | 0.11                |
+| **KNN**                 | 0.85     | 0.05                 | 0.13              | 0.08                |
+| **GBM**                 | 0.87     | 0.14                 | 0.33              | 0.19                |
 
 
 ## Confusion Matrices
