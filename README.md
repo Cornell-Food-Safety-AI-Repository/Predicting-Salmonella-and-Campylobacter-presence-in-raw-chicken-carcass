@@ -72,7 +72,7 @@ python ML_runner.py <path_to_dataset> --model <model_name> --target <target_colu
 ## Model Performance Results with Resampling Process
 
 The following visualization and tables summarize the performance of different machine learning models after applying resampling.
-
+### SalmonellaSPAnalysis
 ### Performance Comparison Chart
 
 ![Model Performance Comparison](Images/curve_new.png)
@@ -133,10 +133,10 @@ The following visualization and tables summarize the performance of different ma
 | **Actual Negative** | 843                   | 90                   |
 | **Actual Positive** | 30                   | 15                   |
 
-## CampylobacterAnalysis30ml
+### CampylobacterAnalysis30ml
 
 ### Performance Comparison Chart
-![Model Performance Comparison](Images/curve_new.png)
+![Model Performance Comparison](Images/outputc.png)
 ### Performance Table
 
 | Algorithm            | Accuracy | Precision | Recall (Positive) | F1-Score (Positive) |
