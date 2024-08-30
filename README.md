@@ -182,6 +182,7 @@ python LazyChicken.py /path/to/Dataset_RawChickenCarcasses.xlsx --target Salmone
 | NuSVC                          | 0.85     | 0.57              | 0.57    | 0.88     | 2.70       | 0.27        | 0.88        |
 | KNeighborsClassifier           | 0.74     | 0.57              | 0.57    | 0.81     | 0.05       | 0.38        | 0.76        |
 | LogisticRegression             | 0.68     | 0.62              | 0.62    | 0.77     | 0.12       | 0.56        | 0.68        |
+| SGDClassifier                  | 0.68     | 0.63              | 0.63    | 0.77     | 0.17       | 0.58        | 0.68        |
 | CalibratedClassifierCV         | 0.67     | 0.62              | 0.62    | 0.77     | 6.89       | 0.56        | 0.68        |
 | LinearSVC                      | 0.67     | 0.62              | 0.62    | 0.77     | 1.46       | 0.56        | 0.68        |
 | RidgeClassifier                | 0.67     | 0.62              | 0.62    | 0.77     | 0.04       | 0.56        | 0.68        |
@@ -191,7 +192,6 @@ python LazyChicken.py /path/to/Dataset_RawChickenCarcasses.xlsx --target Salmone
 | PassiveAggressiveClassifier    | 0.64     | 0.57              | 0.57    | 0.74     | 0.07       | 0.49        | 0.65        |
 | BernoulliNB                    | 0.63     | 0.57              | 0.57    | 0.73     | 0.03       | 0.51        | 0.63        |
 | NearestCentroid                | 0.63     | 0.54              | 0.54    | 0.73     | 0.05       | 0.44        | 0.64        |
-| SGDClassifier                  | 0.68     | 0.63              | 0.63    | 0.77     | 0.17       | 0.58        | 0.68        |
 | QuadraticDiscriminantAnalysis  | 0.09     | 0.51              | 0.51    | 0.09     | 0.16       | 0.98        | 0.05        |
 | GaussianNB                     | 0.07     | 0.50              | 0.50    | 0.06     | 0.04       | 0.98        | 0.03        |
 
