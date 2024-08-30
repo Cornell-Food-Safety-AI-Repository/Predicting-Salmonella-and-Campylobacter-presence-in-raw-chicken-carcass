@@ -205,7 +205,36 @@ python LazyChicken.py /path/to/Dataset_RawChickenCarcasses.xlsx --target Salmone
 ### CampylobacterAnalysis30ml
 #### Model Performance Table
 
-![Model Performance Table](Images/model_performance_table_C.png)
+| Model                          | Accuracy | Balanced Accuracy | ROC AUC | F1 Score | Time Taken | Sensitivity | Specificity |
+|--------------------------------|----------|-------------------|---------|----------|------------|-------------|-------------|
+| DummyClassifier                | 0.75     | 0.50              | 0.50    | 0.65     | 0.02       | 0.00        | 1.00        |
+| LGBMClassifier                 | 0.70     | 0.52              | 0.52    | 0.67     | 0.17       | 0.16        | 0.88        |
+| RandomForestClassifier         | 0.70     | 0.52              | 0.52    | 0.66     | 1.75       | 0.16        | 0.87        |
+| ExtraTreesClassifier           | 0.70     | 0.51              | 0.51    | 0.66     | 0.69       | 0.16        | 0.87        |
+| XGBClassifier                  | 0.68     | 0.52              | 0.52    | 0.66     | 0.28       | 0.20        | 0.84        |
+| BaggingClassifier              | 0.68     | 0.51              | 0.51    | 0.66     | 1.67       | 0.19        | 0.83        |
+| AdaBoostClassifier             | 0.67     | 0.55              | 0.55    | 0.67     | 1.16       | 0.30        | 0.79        |
+| NuSVC                          | 0.63     | 0.52              | 0.52    | 0.63     | 1.27       | 0.30        | 0.73        |
+| DecisionTreeClassifier         | 0.62     | 0.50              | 0.50    | 0.62     | 0.25       | 0.28        | 0.73        |
+| LabelSpreading                 | 0.61     | 0.51              | 0.51    | 0.62     | 1.46       | 0.31        | 0.70        |
+| LabelPropagation               | 0.61     | 0.51              | 0.51    | 0.62     | 1.23       | 0.30        | 0.71        |
+| ExtraTreeClassifier            | 0.62     | 0.52              | 0.52    | 0.63     | 0.02       | 0.33        | 0.71        |
+| SVC                            | 0.58     | 0.54              | 0.54    | 0.61     | 1.14       | 0.46        | 0.62        |
+| PassiveAggressiveClassifier    | 0.54     | 0.56              | 0.56    | 0.57     | 0.02       | 0.59        | 0.52        |
+| RidgeClassifierCV              | 0.54     | 0.53              | 0.53    | 0.58     | 0.13       | 0.51        | 0.55        |
+| CalibratedClassifierCV         | 0.54     | 0.52              | 0.52    | 0.57     | 7.09       | 0.48        | 0.56        |
+| LogisticRegression             | 0.53     | 0.52              | 0.52    | 0.56     | 0.06       | 0.50        | 0.54        |
+| RidgeClassifier                | 0.53     | 0.52              | 0.52    | 0.57     | 0.03       | 0.48        | 0.55        |
+| SGDClassifier                  | 0.53     | 0.52              | 0.52    | 0.56     | 0.07       | 0.49        | 0.54        |
+| LinearDiscriminantAnalysis     | 0.53     | 0.52              | 0.52    | 0.57     | 0.10       | 0.48        | 0.55        |
+| LinearSVC                      | 0.53     | 0.51              | 0.51    | 0.56     | 0.73       | 0.47        | 0.55        |
+| Perceptron                     | 0.54     | 0.50              | 0.50    | 0.57     | 0.02       | 0.43        | 0.57        |
+| KNeighborsClassifier           | 0.51     | 0.52              | 0.52    | 0.54     | 0.10       | 0.55        | 0.49        |
+| NearestCentroid                | 0.51     | 0.52              | 0.52    | 0.55     | 0.02       | 0.52        | 0.51        |
+| BernoulliNB                    | 0.48     | 0.50              | 0.50    | 0.51     | 0.03       | 0.53        | 0.46        |
+| GaussianNB                     | 0.26     | 0.51              | 0.51    | 0.14     | 0.02       | 1.00        | 0.03        |
+| QuadraticDiscriminantAnalysis  | 0.26     | 0.51              | 0.51    | 0.13     | 0.09       | 1.00        | 0.02        |
+
 
 #### Model Accuracy Comparison
 
