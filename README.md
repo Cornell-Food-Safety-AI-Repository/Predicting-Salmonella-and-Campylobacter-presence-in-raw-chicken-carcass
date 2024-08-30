@@ -133,6 +133,64 @@ The following visualization and tables summarize the performance of different ma
 | **Actual Negative** | 843                   | 90                   |
 | **Actual Positive** | 30                   | 15                   |
 
+## CampylobacterAnalysis30ml
+
+### Performance Comparison Chart
+![Model Performance Comparison](Images/curve_new.png)
+### Performance Table
+
+| Algorithm            | Accuracy | Precision | Recall (Positive) | F1-Score (Positive) |
+|----------------------|----------|-----------|-------------------|---------------------|
+| Logistic Regression  | 0.5317   | 0.07      | 0.51              | 0.12                |
+| Neural Network       | 0.6227   | 0.13      | 0.16              | 0.14                |
+| Decision Tree        | 0.6094   | 0.12      | 0.16              | 0.13                |
+| SVM                  | 0.5777   | 0.07      | 0.24              | 0.11                |
+| KNN                  | 0.5736   | 0.05      | 0.13              | 0.08                |
+| GBM                  | 0.6339   | 0.14      | 0.33              | 0.19                |
+
+### Confusion Matrices
+
+#### Logistic Regression Confusion Matrix
+
+| Actual Negative | Predicted Negative | Predicted Positive |
+|-----------------|--------------------|--------------------|
+| 738             | 400                | 338                |
+| 240             | 120                | 120                |
+
+#### Neural Network Confusion Matrix
+
+| Actual Negative | Predicted Negative | Predicted Positive |
+|-----------------|--------------------|--------------------|
+| 738             | 548                | 190                |
+| 240             | 179                |  61                |
+
+#### Decision Tree Confusion Matrix
+
+| Actual Negative | Predicted Negative | Predicted Positive |
+|-----------------|--------------------|--------------------|
+| 738             | 537                | 201                |
+| 240             | 181                |  59                |
+
+#### SVM Confusion Matrix
+
+| Actual Negative | Predicted Negative | Predicted Positive |
+|-----------------|--------------------|--------------------|
+| 738             | 456                | 282                |
+| 240             | 131                | 109                |
+
+#### KNN Confusion Matrix
+
+| Actual Negative | Predicted Negative | Predicted Positive |
+|-----------------|--------------------|--------------------|
+| 738             | 447                | 291                |
+| 240             | 126                | 114                |
+
+#### GBM Confusion Matrix
+
+| Actual Negative | Predicted Negative | Predicted Positive |
+|-----------------|--------------------|--------------------|
+| 738             | 532                | 206                |
+| 240             | 152                |  88                |
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
