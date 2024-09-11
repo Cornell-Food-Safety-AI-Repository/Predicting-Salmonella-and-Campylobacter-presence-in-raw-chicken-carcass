@@ -79,59 +79,27 @@ The following visualization and tables summarize the performance of different ma
 
 ### Performance Table
 
-| Algorithm        | Accuracy | Precision | Recall (Positive) |  F1-Score (Positive) |
-|------------------|----------|----------------------|----------------------|-------------------|
-| **Logistic Regression** | 0.66     | 0.07                 | 0.51              | 0.12                |
-| **Neural Network**      | 0.91     | 0.13                 | 0.16              | 0.14                |
-| **Decision Tree**       | 0.91     | 0.12                 | 0.16              | 0.13                |
-| **SVM**                 | 0.83     | 0.07                 | 0.24              | 0.11                |
-| **KNN**                 | 0.85     | 0.05                 | 0.13              | 0.08                |
-| **GBM**                 | 0.87     | 0.14                 | 0.33              | 0.19                |
+| Algorithm           | Avg ROC AUC (Cross-validation) | Accuracy | Precision | Recall | F1 Score | ROC AUC (Test Set) |
+|---------------------|-------------------------------|----------|-----------|--------|----------|--------------------|
+| Neural Network       | 0.9901                        | 0.9090   | 0.9604    | 0.9458 | 0.9531   | 0.5687             |
+| DecisionTree         | 0.9703                        | 0.9018   | 0.9644    | 0.9354 | 0.9496   | 0.5682             |
+| GradientBoosting     | 0.9699                        | 0.8732   | 0.9703    | 0.9009 | 0.9343   | 0.6600             |
+| KNN                 | 0.9588                        | 0.8507   | 0.9549    | 0.8859 | 0.9187   | 0.5536             |
+| SVM                 | 0.9526                        | 0.8262   | 0.9591    | 0.8541 | 0.9029   | 0.5893             |
+| LogisticRegression   | 0.7004                        | 0.6595   | 0.9716    | 0.6668 | 0.7920   | 0.6051             |
 
 
 ## Confusion Matrices
 
-### Logistic Regression Confusion Matrix
+| Algorithm           | True Positive (TP) | False Positive (FP) | False Negative (FN) | True Negative (TN) |
+|---------------------|--------------------|---------------------|---------------------|--------------------|
+| Neural Network       | 5                  | 49                  | 40                  | 884                |
+| DecisionTree         | 9                  | 60                  | 36                  | 873                |
+| GradientBoosting     | 15                 | 94                  | 30                  | 839                |
+| KNN                 | 6                  | 107                 | 39                  | 826                |
+| SVM                 | 11                 | 136                 | 34                  | 797                |
+| LogisticRegression   | 23                 | 311                 | 22                  | 622                |
 
-|                 | Predicted Negative | Predicted Positive |
-|-----------------|---------------------|---------------------|
-| **Actual Negative** | 628                   | 305                   |
-| **Actual Positive** | 17                   | 28                   |
-
-### Neural Network Confusion Matrix
-
-|                 | Predicted Negative | Predicted Positive |
-|-----------------|---------------------|---------------------|
-| **Actual Negative** | 896                   | 37                   |
-| **Actual Positive** | 40                   | 5                   |
-
-### Decision Tree Confusion Matrix
-
-|                 | Predicted Negative | Predicted Positive |
-|-----------------|---------------------|---------------------|
-| **Actual Negative** | 873                   | 60                   |
-| **Actual Positive** | 41                   | 4                   |
-
-### SVM Confusion Matrix
-
-|                 | Predicted Negative | Predicted Positive |
-|-----------------|---------------------|---------------------|
-| **Actual Negative** | 799                   | 134                   |
-| **Actual Positive** | 32                   | 13                   |
-
-### KNN Confusion Matrix
-
-|                 | Predicted Negative | Predicted Positive |
-|-----------------|---------------------|---------------------|
-| **Actual Negative** | 819                   | 114                   |
-| **Actual Positive** | 37                   | 8                   |
-
-### GBM Confusion Matrix
-
-|                 | Predicted Negative | Predicted Positive |
-|-----------------|---------------------|---------------------|
-| **Actual Negative** | 843                   | 90                   |
-| **Actual Positive** | 30                   | 15                   |
 
 
 ![Model Performance Comparison](Images/output_roc1.png)
