@@ -81,12 +81,13 @@ The following visualization and tables summarize the performance of different ma
 
 | Algorithm           | Avg ROC AUC (Cross-validation) | Accuracy | Precision | Recall | F1 Score | ROC AUC (Test Set) |
 |---------------------|-------------------------------|----------|-----------|--------|----------|--------------------|
-| Neural Network       | 0.9901                        | 0.9090   | 0.9604    | 0.9458 | 0.9531   | 0.5687             |
-| DecisionTree         | 0.9703                        | 0.9018   | 0.9644    | 0.9354 | 0.9496   | 0.5682             |
-| GradientBoosting     | 0.9699                        | 0.8732   | 0.9703    | 0.9009 | 0.9343   | 0.6600             |
-| KNN                 | 0.9588                        | 0.8507   | 0.9549    | 0.8859 | 0.9187   | 0.5536             |
-| SVM                 | 0.9526                        | 0.8262   | 0.9591    | 0.8541 | 0.9029   | 0.5893             |
-| LogisticRegression   | 0.7004                        | 0.6595   | 0.9716    | 0.6668 | 0.7920   | 0.6051             |
+| Neural Network       | 0.99                          | 0.91     | 0.96      | 0.95   | 0.95     | 0.57               |
+| DecisionTree         | 0.97                          | 0.90     | 0.96      | 0.94   | 0.95     | 0.57               |
+| GradientBoosting     | 0.97                          | 0.87     | 0.97      | 0.90   | 0.93     | 0.66               |
+| KNN                 | 0.96                          | 0.85     | 0.95      | 0.89   | 0.92     | 0.55               |
+| SVM                 | 0.95                          | 0.83     | 0.96      | 0.85   | 0.90     | 0.59               |
+| LogisticRegression   | 0.70                          | 0.66     | 0.97      | 0.67   | 0.79     | 0.61               |
+
 
 
 ## Confusion Matrices
