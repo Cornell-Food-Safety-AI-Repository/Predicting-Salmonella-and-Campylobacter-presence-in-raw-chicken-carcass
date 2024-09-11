@@ -133,6 +133,8 @@ The following visualization and tables summarize the performance of different ma
 | **Actual Negative** | 843                   | 90                   |
 | **Actual Positive** | 30                   | 15                   |
 
+
+![Model Performance Comparison](Images/output_roc1.png)
 ### CampylobacterAnalysis30ml
 
 ### Performance Comparison Chart
@@ -191,6 +193,8 @@ The following visualization and tables summarize the performance of different ma
 |-----------------|--------------------|--------------------|
 | 738             | 532                | 206                |
 | 240             | 152                |  88                |
+
+![Model Performance Comparison](Images/output_roc2.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
