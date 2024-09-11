@@ -109,58 +109,26 @@ The following visualization and tables summarize the performance of different ma
 ![Model Performance Comparison](Images/outputc.png)
 ### Performance Table
 
-| Algorithm            | Accuracy | Precision | Recall (Positive) | F1-Score (Positive) |
-|----------------------|----------|-----------|-------------------|---------------------|
-| Logistic Regression  | 0.5317   | 0.07      | 0.51              | 0.12                |
-| Neural Network       | 0.6227   | 0.13      | 0.16              | 0.14                |
-| Decision Tree        | 0.6094   | 0.12      | 0.16              | 0.13                |
-| SVM                  | 0.5777   | 0.07      | 0.24              | 0.11                |
-| KNN                  | 0.5736   | 0.05      | 0.13              | 0.08                |
-| GBM                  | 0.6339   | 0.14      | 0.33              | 0.19                |
+| Algorithm           | Avg ROC AUC (Cross-validation) | Accuracy | Precision | Recall | F1 Score | ROC AUC (Test Set) |
+|---------------------|-------------------------------|----------|-----------|--------|----------|--------------------|
+| Neural Network       | 0.85                          | 0.62     | 0.77      | 0.72   | 0.74     | 0.56               |
+| DecisionTree         | 0.82                          | 0.61     | 0.75      | 0.72   | 0.74     | 0.49               |
+| GradientBoosting     | 0.79                          | 0.63     | 0.78      | 0.72   | 0.75     | 0.56               |
+| KNN                 | 0.72                          | 0.57     | 0.78      | 0.61   | 0.68     | 0.54               |
+| SVM                 | 0.72                          | 0.58     | 0.78      | 0.62   | 0.69     | 0.54               |
+| LogisticRegression   | 0.57                          | 0.53     | 0.77      | 0.54   | 0.64     | 0.54               |
+
 
 ### Confusion Matrices
 
-#### Logistic Regression Confusion Matrix
-
-| Actual Negative | Predicted Negative | Predicted Positive |
-|-----------------|--------------------|--------------------|
-| 738             | 400                | 338                |
-| 240             | 120                | 120                |
-
-#### Neural Network Confusion Matrix
-
-| Actual Negative | Predicted Negative | Predicted Positive |
-|-----------------|--------------------|--------------------|
-| 738             | 548                | 190                |
-| 240             | 179                |  61                |
-
-#### Decision Tree Confusion Matrix
-
-| Actual Negative | Predicted Negative | Predicted Positive |
-|-----------------|--------------------|--------------------|
-| 738             | 537                | 201                |
-| 240             | 181                |  59                |
-
-#### SVM Confusion Matrix
-
-| Actual Negative | Predicted Negative | Predicted Positive |
-|-----------------|--------------------|--------------------|
-| 738             | 456                | 282                |
-| 240             | 131                | 109                |
-
-#### KNN Confusion Matrix
-
-| Actual Negative | Predicted Negative | Predicted Positive |
-|-----------------|--------------------|--------------------|
-| 738             | 447                | 291                |
-| 240             | 126                | 114                |
-
-#### GBM Confusion Matrix
-
-| Actual Negative | Predicted Negative | Predicted Positive |
-|-----------------|--------------------|--------------------|
-| 738             | 532                | 206                |
-| 240             | 152                |  88                |
+| Algorithm           | True Positive (TP) | False Positive (FP) | False Negative (FN) | True Negative (TN) |
+|---------------------|--------------------|---------------------|---------------------|--------------------|
+| Neural Network       | 80                 | 210                 | 160                 | 528                |
+| DecisionTree         | 62                 | 203                 | 178                 | 535                |
+| GradientBoosting     | 88                 | 206                 | 152                 | 532                |
+| KNN                 | 114                | 291                 | 126                 | 447                |
+| SVM                 | 109                | 282                 | 131                 | 456                |
+| LogisticRegression   | 120                | 338                 | 120                 | 400                |
 
 ![Model Performance Comparison](Images/output_roc2.png)
 
