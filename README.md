@@ -1,14 +1,23 @@
 # *Salmonella* and *Campylobacter* in raw chicken carcass
+
+🐔 This dataset contains meteorological and temporal data for raw chicken carcass samples tested for the presence of *Salmonella* and *Campylobacter*
+
+📖 This dataset was sourced from “Dataset: Raw Poultry (Current)” at the USDA FSIS website (https://www.fsis.usda.gov/news-events/publications/raw-poultry-sampling). Our dataset includes only the samples categorized as "Animal-Chicken-Broiler / Young Chicken Carcass Rinse," as at the time of data acquisition in October 2023, testing results for other categories of raw poultry product were not merged. 
+
 # Sample Analysis
 ## Overview
-This dataset contains raw chicken carcass sampling data from various poultry establishments across the United States. The data are analyzed for the presence of *Salmonella* and *Campylobacter*, critical for monitoring food safety standards. Additionally, the dataset includes detailed weather data corresponding to the collection dates, providing insights into environmental factors that may influence bacterial detection results.
 
+**Prediction task**:
+- Classification for predicting the presence of Salmonella in the raw chicken carcass
+- Classification for predicting the presence of Campylobacter in the raw chicken carcass
 
-## Data Source
-This dataset is provided by the USDA's Food Safety and Inspection Service (FSIS). All data have been collected under strict quality control and assurance procedures to ensure their accuracy and reliability.
+**Predictor and outcome variables**:
+- The detailed description of metadata for predictor and outcome variables is accessible under the file name "SalCampChicken_Metadata.csv"
+- The cleaned dataset is accessible under the file name "SalCampChicken_clean.csv"
 
-## Usage
-This dataset is intended for researchers and professionals in food safety, public health monitoring, and environmental science. It allows for the analysis of bacterial contamination in raw chicken and understanding how various environmental factors might impact such results.
+**Evaluation metrics**:
+- The classification model was evaluated on ROC AUC, sensitivity, specificity, and F1 score
+- The specific packages for calculating these metrics are accessible in the model training script under the file name "Customize_script.py"
 
 # Sample Analysis
 ## Overview
