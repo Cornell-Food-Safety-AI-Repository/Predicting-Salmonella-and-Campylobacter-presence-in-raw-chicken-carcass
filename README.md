@@ -19,17 +19,6 @@
 - The classification model was evaluated on ROC AUC, sensitivity, specificity, and F1 score
 - The specific packages for calculating these metrics are accessible in the model training script under the file name "Customize_script.py"
 
-# Sample Analysis
-## Overview
-This Python script facilitates the running of various machine learning models on a specified dataset. It supports logistic regression, MLP classifiers, decision trees, SVM, K-Nearest Neighbors, and Gradient Boosting Machines. Features include handling imbalanced datasets using techniques like Random Over Sampler and SMOTE, configurable model parameters through command-line arguments, and the display of feature importance for applicable models.
-
-
-## Features
-- **Multiple Machine Learning Models:** Choose from several models to train on your data.
-- **Configurable Parameters:** Customize model parameters directly via command-line.
-- **Feature Importance Display:** For models that support it, display the importance of each feature in the model.
-- **Data Preprocessing:** Includes standard scaling and handling missing values.
-- **Imbalance Handling:** Options to apply oversampling techniques to balance dataset classes.
 
 ## Installation
 ### Dependencies
